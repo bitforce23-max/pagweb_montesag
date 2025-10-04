@@ -1,4 +1,17 @@
-import { Phone, Mail, Facebook, Zap, HardHat, FileText, CheckCircle, ArrowRight, Shield, Users, Clock, Award } from 'lucide-react';
+import {
+  Phone,
+  Mail,
+  Facebook,
+  Zap,
+  HardHat,
+  FileText,
+  CheckCircle,
+  ArrowRight,
+  Shield,
+  Users,
+  Clock,
+  Award,
+} from 'lucide-react';
 
 function App() {
   return (
@@ -15,9 +28,24 @@ function App() {
               />
             </div>
             <div className="hidden md:flex items-center gap-8">
-              <a href="#servicios" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">Servicios</a>
-              <a href="#nosotros" className="text-gray-700 hover:text-orange-600 transition-colors font-medium">Nosotros</a>
-              <a href="#contacto" className="bg-orange-600 text-white px-6 py-2.5 rounded-lg hover:bg-orange-700 transition-colors font-medium">Contacto</a>
+              <a
+                href="#servicios"
+                className="text-gray-700 hover:text-orange-600 transition-colors font-medium"
+              >
+                Servicios
+              </a>
+              <a
+                href="#nosotros"
+                className="text-gray-700 hover:text-orange-600 transition-colors font-medium"
+              >
+                Nosotros
+              </a>
+              <a
+                href="#contacto"
+                className="bg-orange-600 text-white px-6 py-2.5 rounded-lg hover:bg-orange-700 transition-colors font-medium"
+              >
+                Contacto
+              </a>
             </div>
           </div>
         </nav>
@@ -26,23 +54,37 @@ function App() {
       {/* Hero Section */}
       <section className="relative text-white overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/fondo copy.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img
+            src="/fondo copy.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              CONSTRUCTORA Y SERVICIOS <span className="text-white">MONTESAG S.A.C</span>
+              CONSTRUCTORA Y SERVICIOS{' '}
+              <span className="text-white">MONTESAG S.A.C</span>
             </h1>
             <p className="text-xl md:text-2xl text-orange-50 mb-8 leading-relaxed">
-              Especialistas en mantenimiento y distribución eléctrica, proyectos de construcción civil y servicios comerciales con los más altos estándares de calidad y seguridad.
+              Especialistas en mantenimiento y distribución eléctrica, proyectos
+              de construcción civil y servicios comerciales con los más altos
+              estándares de calidad y seguridad.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contacto" className="bg-white text-orange-600 px-8 py-4 rounded-lg hover:bg-orange-50 transition-all font-semibold text-lg inline-flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
+              <a
+                href="https://wa.me/+51975072441"
+                target="_blank"
+                className="bg-white text-orange-600 px-8 py-4 rounded-lg hover:bg-orange-50 transition-all font-semibold text-lg inline-flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+              >
                 Solicitar Cotización
                 <ArrowRight className="w-5 h-5" />
               </a>
-              <a href="#servicios" className="bg-orange-700 text-white px-8 py-4 rounded-lg hover:bg-orange-800 transition-all font-semibold text-lg inline-flex items-center justify-center border-2 border-white">
+              <a
+                href="#servicios"
+                className="bg-orange-700 text-white px-8 py-4 rounded-lg hover:bg-orange-800 transition-all font-semibold text-lg inline-flex items-center justify-center border-2 border-white"
+              >
                 Ver Servicios
               </a>
             </div>
@@ -54,17 +96,30 @@ function App() {
       <section id="nosotros" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Quiénes Somos</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Quiénes Somos
+            </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-8"></div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                <span className="font-bold text-orange-600">MONTESAG Ingenieros SAC</span> es una empresa dedicada al rubro de servicios, trabajos de actividades comerciales, servicios de mantenimiento de distribución en baja y media tensión, ejecución de obras eléctricas y de construcción civil.
+                <span className="font-bold text-orange-600">
+                  MONTESAG Ingenieros SAC
+                </span>{' '}
+                es una empresa dedicada al rubro de servicios, trabajos de
+                actividades comerciales, servicios de mantenimiento de
+                distribución en baja y media tensión, ejecución de obras
+                eléctricas y de construcción civil.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Contamos con un equipo de profesionales, técnicos y colaboradores calificados y comprometidos con nuestros clientes, el bienestar de nuestro personal, la comunidad y el medio ambiente, garantizando siempre la ejecución de nuestros servicios con la calidad que nos caracteriza y cumpliendo con los estándares de seguridad.
+                Contamos con un equipo de profesionales, técnicos y
+                colaboradores calificados y comprometidos con nuestros clientes,
+                el bienestar de nuestro personal, la comunidad y el medio
+                ambiente, garantizando siempre la ejecución de nuestros
+                servicios con la calidad que nos caracteriza y cumpliendo con
+                los estándares de seguridad.
               </p>
             </div>
 
@@ -72,25 +127,35 @@ function App() {
               <div className="bg-orange-50 p-6 rounded-xl border border-orange-100">
                 <Shield className="w-10 h-10 text-orange-600 mb-3" />
                 <h4 className="font-bold text-gray-900 mb-2">Seguridad</h4>
-                <p className="text-gray-600 text-sm">Cumplimiento de estándares de seguridad</p>
+                <p className="text-gray-600 text-sm">
+                  Cumplimiento de estándares de seguridad
+                </p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-xl border border-orange-100">
                 <Users className="w-10 h-10 text-orange-600 mb-3" />
-                <h4 className="font-bold text-gray-900 mb-2">Equipo Calificado</h4>
-                <p className="text-gray-600 text-sm">Profesionales y técnicos expertos</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  Equipo Calificado
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Profesionales y técnicos expertos
+                </p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-xl border border-orange-100">
                 <Clock className="w-10 h-10 text-orange-600 mb-3" />
                 <h4 className="font-bold text-gray-900 mb-2">Compromiso</h4>
-                <p className="text-gray-600 text-sm">Dedicación con nuestros clientes</p>
+                <p className="text-gray-600 text-sm">
+                  Dedicación con nuestros clientes
+                </p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-xl border border-orange-100">
                 <Award className="w-10 h-10 text-orange-600 mb-3" />
                 <h4 className="font-bold text-gray-900 mb-2">Calidad</h4>
-                <p className="text-gray-600 text-sm">Excelencia en cada servicio</p>
+                <p className="text-gray-600 text-sm">
+                  Excelencia en cada servicio
+                </p>
               </div>
             </div>
           </div>
@@ -101,8 +166,12 @@ function App() {
       <section id="servicios" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nuestros Servicios</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Soluciones integrales en sistemas eléctricos y construcción civil</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Nuestros Servicios
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Soluciones integrales en sistemas eléctricos y construcción civil
+            </p>
             <div className="w-24 h-1 bg-orange-600 mx-auto mt-6"></div>
           </div>
 
@@ -110,18 +179,27 @@ function App() {
             {/* Mantenimiento y Distribución */}
             <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all border-t-4 border-orange-600">
               <div className="absolute inset-0">
-                <img src="/fondo2.jpg" alt="Mantenimiento" className="w-full h-full object-cover" />
+                <img
+                  src="/fondo2.jpg"
+                  alt="Mantenimiento"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95"></div>
               <div className="relative p-8">
                 <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                   <Zap className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Mantenimiento y Distribución</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Mantenimiento y Distribución
+                </h3>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Mantenimientos predictivos, preventivos y correctivos en redes de distribución</span>
+                    <span>
+                      Mantenimientos predictivos, preventivos y correctivos en
+                      redes de distribución
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
@@ -133,7 +211,10 @@ function App() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Pequeñas remodelaciones y ampliaciones en sistemas eléctricos</span>
+                    <span>
+                      Pequeñas remodelaciones y ampliaciones en sistemas
+                      eléctricos
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
@@ -141,7 +222,11 @@ function App() {
                   </li>
                 </ul>
                 <div className="mt-6 rounded-lg overflow-hidden">
-                  <img src="/fondo2.jpg" alt="Mantenimiento eléctrico" className="w-full h-48 object-cover" />
+                  <img
+                    src="/fondo2.jpg"
+                    alt="Mantenimiento eléctrico"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -149,23 +234,36 @@ function App() {
             {/* Proyectos y Obras Eléctricas */}
             <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all border-t-4 border-orange-600">
               <div className="absolute inset-0">
-                <img src="/fondo3.jpg" alt="Proyectos" className="w-full h-full object-cover" />
+                <img
+                  src="/fondo3.jpg"
+                  alt="Proyectos"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95"></div>
               <div className="relative p-8">
                 <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                   <HardHat className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Proyectos y Obras Eléctricas</h3>
-                <p className="text-sm text-orange-600 font-semibold mb-4">Ampliaciones de Potencia por Demanda</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Proyectos y Obras Eléctricas
+                </h3>
+                <p className="text-sm text-orange-600 font-semibold mb-4">
+                  Ampliaciones de Potencia por Demanda
+                </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Ejecución de proyectos en redes primarias y secundarias</span>
+                    <span>
+                      Ejecución de proyectos en redes primarias y secundarias
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Elaboración de expedientes de proyectos de ejecución y remodelación</span>
+                    <span>
+                      Elaboración de expedientes de proyectos de ejecución y
+                      remodelación
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
@@ -177,27 +275,44 @@ function App() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Proyectos de electrificación y ampliación de potencia</span>
+                    <span>
+                      Proyectos de electrificación y ampliación de potencia
+                    </span>
                   </li>
                 </ul>
+                <div className="mt-6 rounded-lg overflow-hidden">
+                  <img
+                    src="/fondo3.jpg"
+                    alt="Proyectos y Obras Eléctricas"
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Actividades Comerciales */}
             <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all border-t-4 border-orange-600">
               <div className="absolute inset-0">
-                <img src="/fondo4.jpg" alt="Actividades Comerciales" className="w-full h-full object-cover" />
+                <img
+                  src="/fondo4.jpg"
+                  alt="Actividades Comerciales"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95"></div>
               <div className="relative p-8">
                 <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                   <FileText className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Actividades Comerciales</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  Actividades Comerciales
+                </h3>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Instalación de conexiones nuevas monofásicas y trifásicas</span>
+                    <span>
+                      Instalación de conexiones nuevas monofásicas y trifásicas
+                    </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
@@ -205,9 +320,18 @@ function App() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Factibilidades eléctricas en media y baja tensión</span>
+                    <span>
+                      Factibilidades eléctricas en media y baja tensión
+                    </span>
                   </li>
                 </ul>
+                <div className="mt-6 rounded-lg overflow-hidden">
+                  <img
+                    src="/fondo4.jpg"
+                    alt="Actividades Comerciales"
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -219,8 +343,12 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-orange-600 to-orange-700 rounded-2xl shadow-2xl p-12 text-white">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">¿Por qué elegirnos?</h2>
-              <p className="text-xl text-orange-50">Comprometidos con la excelencia en cada proyecto</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                ¿Por qué elegirnos?
+              </h2>
+              <p className="text-xl text-orange-50">
+                Comprometidos con la excelencia en cada proyecto
+              </p>
             </div>
 
             <div className="grid md:grid-cols-4 gap-8">
@@ -228,8 +356,12 @@ function App() {
                 <div className="bg-white bg-opacity-20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-10 h-10" />
                 </div>
-                <h4 className="font-bold text-lg mb-2">Seguridad Garantizada</h4>
-                <p className="text-orange-50">Cumplimiento estricto de normas de seguridad</p>
+                <h4 className="font-bold text-lg mb-2">
+                  Seguridad Garantizada
+                </h4>
+                <p className="text-orange-50">
+                  Cumplimiento estricto de normas de seguridad
+                </p>
               </div>
 
               <div className="text-center">
@@ -237,7 +369,9 @@ function App() {
                   <Users className="w-10 h-10" />
                 </div>
                 <h4 className="font-bold text-lg mb-2">Personal Calificado</h4>
-                <p className="text-orange-50">Equipo de profesionales expertos</p>
+                <p className="text-orange-50">
+                  Equipo de profesionales expertos
+                </p>
               </div>
 
               <div className="text-center">
@@ -245,7 +379,9 @@ function App() {
                   <Award className="w-10 h-10" />
                 </div>
                 <h4 className="font-bold text-lg mb-2">Calidad Certificada</h4>
-                <p className="text-orange-50">Servicios con los más altos estándares</p>
+                <p className="text-orange-50">
+                  Servicios con los más altos estándares
+                </p>
               </div>
 
               <div className="text-center">
@@ -264,8 +400,12 @@ function App() {
       <section id="contacto" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contáctanos</h2>
-            <p className="text-xl text-gray-600">Estamos listos para atender tus necesidades</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Contáctanos
+            </h2>
+            <p className="text-xl text-gray-600">
+              Estamos listos para atender tus necesidades
+            </p>
             <div className="w-24 h-1 bg-orange-600 mx-auto mt-6"></div>
           </div>
 
@@ -274,7 +414,9 @@ function App() {
               <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-8 h-8 text-white" />
               </div>
-              <h5 className="font-bold text-gray-900 mb-2 text-lg">Teléfonos</h5>
+              <h5 className="font-bold text-gray-900 mb-2 text-lg">
+                Teléfonos
+              </h5>
               <p className="text-gray-600">990 279 753</p>
               <p className="text-gray-600">975 072 441</p>
             </div>
@@ -284,7 +426,10 @@ function App() {
                 <Mail className="w-8 h-8 text-white" />
               </div>
               <h5 className="font-bold text-gray-900 mb-2 text-lg">Email</h5>
-              <a href="mailto:ventasmontesag@gmail.com" className="text-gray-600 hover:text-orange-600 transition-colors">
+              <a
+                href="mailto:ventasmontesag@gmail.com"
+                className="text-gray-600 hover:text-orange-600 transition-colors"
+              >
                 ventasmontesag@gmail.com
               </a>
             </div>
@@ -294,7 +439,12 @@ function App() {
                 <Facebook className="w-8 h-8 text-white" />
               </div>
               <h5 className="font-bold text-gray-900 mb-2 text-lg">Facebook</h5>
-              <a href="https://www.facebook.com/share/1P7LzbBGvN" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-700 transition-colors font-medium">
+              <a
+                href="https://www.facebook.com/share/1P7LzbBGvN"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-600 hover:text-orange-700 transition-colors font-medium"
+              >
                 Visitar página
               </a>
             </div>
@@ -314,8 +464,12 @@ function App() {
               />
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm">&copy; 2025 CONSTRUCTORA Y SERVICIOS MONTESAG S.A.C.</p>
-              <p className="text-sm text-gray-400">Todos los derechos reservados.</p>
+              <p className="text-sm">
+                &copy; 2025 CONSTRUCTORA Y SERVICIOS MONTESAG S.A.C.
+              </p>
+              <p className="text-sm text-gray-400">
+                Todos los derechos reservados.
+              </p>
             </div>
           </div>
         </div>
