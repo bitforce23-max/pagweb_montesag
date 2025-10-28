@@ -421,7 +421,12 @@ function App() {
                 href="mailto:ventasmontesag@gmail.com"
                 className="text-gray-600 hover:text-orange-600 transition-colors"
               >
-                ventasmontesag@gmail.com<br>
+                ventasmontesag@gmail.com
+              </a><br>
+                <a
+                href="mailto:Ing.sagastegui140697@gmail.com"
+                className="text-gray-600 hover:text-orange-600 transition-colors"
+              >
                 Ing.sagastegui140697@gmail.com
               </a>
             </div>
