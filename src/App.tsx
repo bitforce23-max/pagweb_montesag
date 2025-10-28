@@ -410,19 +410,24 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-           
-
-            <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all">
+             <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all">
               <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-8 h-8 text-white" />
               </div>
-              <h5 className="font-bold text-gray-900 mb-2 text-lg">Email</h5>
+              <h5 className="font-bold text-gray-900 mb-2 text-lg">Email 1</h5>
               <a
                 href="mailto:ventasmontesag@gmail.com"
                 className="text-gray-600 hover:text-orange-600 transition-colors"
               >
                 ventasmontesag@gmail.com
-              </a>&nbsp;
+              </a>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all">
+              <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Mail className="w-8 h-8 text-white" />
+              </div>
+              <h5 className="font-bold text-gray-900 mb-2 text-lg">Email 2</h5>
                 <a
                 href="mailto:Ing.sagastegui140697@gmail.com"
                 className="text-gray-600 hover:text-orange-600 transition-colors"
