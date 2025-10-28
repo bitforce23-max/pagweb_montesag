@@ -410,16 +410,7 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all">
-              <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-8 h-8 text-white" />
-              </div>
-              <h5 className="font-bold text-gray-900 mb-2 text-lg">
-                Teléfonos
-              </h5>
-              <p className="text-gray-600">990 279 753</p>
-              <p className="text-gray-600">975 072 441</p>
-            </div>
+           
 
             <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all">
               <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -430,7 +421,8 @@ function App() {
                 href="mailto:ventasmontesag@gmail.com"
                 className="text-gray-600 hover:text-orange-600 transition-colors"
               >
-                ventasmontesag@gmail.com
+                ventasmontesag@gmail.com<br>
+                Ing.sagastegui140697@gmail.com
               </a>
             </div>
 
