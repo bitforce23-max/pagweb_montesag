@@ -422,7 +422,7 @@ function App() {
                 className="text-gray-600 hover:text-orange-600 transition-colors"
               >
                 ventasmontesag@gmail.com
-              </a><br>
+              </a>&nbsp;
                 <a
                 href="mailto:Ing.sagastegui140697@gmail.com"
                 className="text-gray-600 hover:text-orange-600 transition-colors"
